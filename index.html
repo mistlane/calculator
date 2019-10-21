@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <title>Calculator</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <div id='plastic'>
+
+        <div id="screen">
+        </div>
+
+        <div id="operators">
+            <input type="image" onclick = digitalizer("+") src="data/add.png" />
+            <input type="image" onclick = digitalizer("-") src="data/subtract.png" />
+            <input type="image" onclick = digitalizer("*") src="data/multiply.png" />
+            <input type="image" onclick = digitalizer('/') src="data/divide.png" />
+            <input type="image" onclick = clearNumbers() src="data/clear.png" />
+       
+        </div>
+
+        <div id="numpad">
+                
+            <input type="image" onclick = digitalizer("1") src="data/one.png" />
+            <input type="image" onclick = digitalizer("2") src="data/two.png" />
+            <input type="image" onclick = digitalizer("3") src="data/three.png" />
+            <input type="image" onclick = digitalizer("4") src="data/four.png" />
+            <input type="image" onclick = digitalizer("5") src="data/five.png" />
+            <input type="image" onclick = digitalizer("6") src="data/six.png" />
+            <input type="image" onclick = digitalizer("7") src="data/seven.png" />
+            <input type="image" onclick = digitalizer("8") src="data/eight.png" />
+            <input type="image" onclick = digitalizer("9") src="data/nine.png" />
+        </div>
+
+        <div id="backspace">
+            <input type="image" onclick = backspace() src="data/backspace.png" />
+        </div>
+        <div id="equals">
+            <input type="image" src="data/equals.png" />
+        </div>
+    </div>
+
+
+<script type="text/javascript" src="javascript.js"></script>
+</body>

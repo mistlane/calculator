@@ -1,0 +1,62 @@
+h1 {
+    display:inline-block;
+    size:relative;
+    font-family: "Arial", Times, serif;
+    font-size:3em;
+    vertical-align:middle;
+
+  }
+
+
+#screen {
+    position:relative;
+    top:45px;
+    left:45px;
+    width: 590px;
+    height: 190px;
+    background-image:url(data/screen.png);
+}
+
+#numpad {
+    position:relative;
+    top:150px;
+    left:50px;
+    display: inline-grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+#operators {
+    position:relative;
+    top:75px;
+    left: 70px;
+    display: inline-grid;
+    grid-gap: 30px;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 5px;
+}
+
+#plastic {
+    position:absolute;
+    top:60px;
+    left:550px;
+    height: 918px;
+    width: 683px;
+    background-image:url(data/pohja.png);
+}
+
+#backspace {
+    position:relative;
+    bottom:150px;
+    left: 442px;
+  
+
+}
+
+#equals {
+    position:relative;
+    bottom:110px;
+    left: 450px;
+    
+}
